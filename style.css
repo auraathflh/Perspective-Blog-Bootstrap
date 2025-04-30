@@ -1,0 +1,159 @@
+/* style.css */
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+footer {
+  color: #000;
+}
+
+.btn-primary {
+  background-color: #add8e6;
+  border-color: #add8e6;
+  color: #000;
+}
+
+.btn-primary:hover {
+  background-color: #92cde9;
+  border-color: #92cde9;
+  color: #000;
+}
+
+.btn-outline-primary {
+  color: #add8e6;
+  border-color: #add8e6;
+}
+
+.btn-outline-primary:hover {
+  background-color: #add8e6;
+  color: #000;
+}
+
+textarea.form-control {
+  border-radius: 0.5rem;
+  border-color: #add8e6;
+}
+
+.my-5 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(50% - 10px); /* 2 kartu per baris */
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h4 {
+  font-size: 18px;
+  margin: 15px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  margin: 0 15px 15px 15px;
+  flex-grow: 1;
+}
+
+.card a {
+  margin: 0 15px 15px 15px;
+  color: #1e88e5;
+  text-decoration: none;
+}
+
+
+.komentar-section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+}
+
+.komentar-section h3 {
+  margin-bottom: 16px;
+}
+
+.komentar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.komentar-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.komentar-item .nama {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.komentar-item .isi {
+  color: #555;
+  margin: 0;
+}
+
+.komentar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.komentar-form input,
+.komentar-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.komentar-form button {
+  width: fit-content;
+  background-color: #0077b6;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.komentar-form button:hover {
+  background-color: #005f8d;
+}
+
+
